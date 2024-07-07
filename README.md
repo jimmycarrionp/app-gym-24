@@ -1,17 +1,54 @@
-# APP MOVIL
-Mobile application for the management of physical training routines in gyms.
+# Aplicación Móvil para la Gestión de Rutinas de Entrenamiento Físico en un Gimnasio
 
-## Introduction
-La incorporación de tecnologías en el ámbito empresarial ha transformado la gestión en todos los niveles sociales, desde grandes corporaciones hasta individuos. (Olarte et al., 2023). Además, con la llegada del COVID-19 se enfatizó la necesidad de adaptación de tecnología en el sector fitness para implementar estrategias efectivas (Razo, 2020). En ese sentido, la tecnología ha impactado en diversos sectores sociales, incluyendo la práctica del ejercicio físico en gimnasios. Por lo tanto, en la búsqueda constante de mejorar los ser-vicios de entrenamiento en gimnasios y garantizar una atención más eficiente y segura; el uso común de aplicaciones móviles en el deporte (Aznar et al., 2019; Cibanal, 2023), brin-da la capacidad de controlar la actividad física desde una aplicación móvil del usuario y aumenta la motivación para realizar ejercicio (Mulas et al., 2013). Debido a la epidemia del COVID-19, se impulsó un aumento significativo en las actividades en línea, especial-mente en el ámbito del fitness, marcando así un nuevo período de crecimiento masivo (Xiao & YongKang, 2023).
-A pesar de la existencia de varias aplicaciones móviles para rutinas de entrenamien-to de gimnasio (Rada & Szabó, 2022) (Woodruff et al., 2021)(Jungwirth et al., 2021), la acti-vidad física es un problema de salud pública crucial, más aún después de la pandemia del COVID-19, es esencial superar los desafíos para mejorar la solidez y eficacia de las aplicaciones de entrenamiento físico, asegurando así una experiencia satisfactoria y con-fiable para los usuarios. Por otro lado, investigaciones previas señalan que la actividad fí-sica a nivel global presenta un panorama limitado (Betancourt et al., 2022), ya que la obe-sidad es un problema grave y persistente el cual hace que la implementación de progra-mas de ejercicio y pérdida de peso no sean efectivos (Gómez et al., 2022). En ese sentido, la falta de ejercicio es identificado como un factor de riesgo principal y significativo en nues-tra población (Lavie et al., 2019). 
-Además, aún no se ha desarrollado un enfoque estándar para abordar la variabilidad en las rutinas de entrenamiento físico en los gimnasios. En consecuencia, el objetivo prin-cipal de este estudio es el desarrollo de una app móvil para mejorar la eficacia en la Ges-tión de rutinas de entrenamiento físico de los gimnasios. Con el fin de mejorar la calidad de los servicios de entrenamiento físico y optimizar la administración de datos relaciona-dos en los gimnasios en la provincia de Barranca. 
-La contribución de este trabajo radica en presentar una aplicación móvil exitosa para gestionar rutinas de entrenamiento en gimnasios. La plataforma intuitiva facilita la orga-nización y seguimiento del ejercicio tanto para usuarios como personal. Además, ofrece herramientas para registrar progresos, establecer metas y dar recomendaciones basadas en datos. Esta innovación mejora la eficiencia y satisfacción en los gimnasios, represen-tando un avance significativo en la gestión de rutinas de entrenamiento físico.
+## Descripción
 
+Esta aplicación móvil está diseñada para los clientes de un gimnasio, proporcionando una plataforma integral donde pueden gestionar sus entrenamientos y evaluaciones corporales. La aplicación permite a los usuarios realizar las siguientes acciones:
 
-## Installation
+- **Registrarse**: Los nuevos usuarios pueden crear una cuenta en la aplicación de manera sencilla.
+- **Comprar mensualidad**: Los usuarios registrados pueden adquirir una membresía mensual para acceder a todas las funcionalidades del gimnasio.
+- **Seleccionar rutinas**: Los usuarios pueden elegir entre varias rutinas de entrenamiento diseñadas por profesionales.
+- **Registrar medidas**: Los usuarios pueden registrar sus medidas corporales para llevar un seguimiento detallado de su progreso físico.
+- **Generar QR**: Los usuarios pueden generar un código QR único que les permite ingresar al gimnasio de forma rápida y segura.
 
+## Tecnologías Utilizadas
 
-## Benchmarking
+### Frontend
+- **Framework**: Flutter (Dart)
+- **Plataformas**: Android e iOS
+- **Características**: Diseño responsivo y multiplataforma, accesibilidad para todos los usuarios, soporte para diferentes navegadores.
 
+### Backend
+- **Framework**: .NET 8
+- **Arquitectura**: Clean Architecture con patrón MVC
+- **Seguridad**: Autenticación y autorización, encriptación de datos sensibles
 
-## Examples
+### Base de Datos
+- **Gestor**: SQL Server 2022
+- **Despliegue**: Servidor Linux con Nginx
+
+### Infraestructura
+- **Servidor**: Linux con Nginx
+- **Despliegue**: Backend y base de datos desplegados en un entorno seguro y escalable
+
+## Estructura del Proyecto
+
+- **/frontend**: Contiene el código fuente del frontend desarrollado en Flutter.
+- **/backend**: Contiene el código fuente del backend desarrollado en .NET 8.
+- **/database**: Contiene los scripts y configuraciones de la base de datos SQL Server 2022.
+- **/docs**: Documentación adicional del proyecto.
+
+## Instalación y Configuración
+
+### Requisitos Previos
+
+- **Flutter**: [Instrucciones de instalación](https://flutter.dev/docs/get-started/install)
+- **.NET 8 SDK**: [Instrucciones de instalación](https://dotnet.microsoft.com/download/dotnet/8.0)
+- **SQL Server 2022**: [Instrucciones de instalación](https://docs.microsoft.com/en-us/sql/sql-server/download-sql-server-2022)
+- **Nginx**: [Instrucciones de instalación](https://nginx.org/en/docs/install.html)
+
+### Pasos de Instalación
+
+1. **Clonar el Repositorio**
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
