@@ -62,7 +62,7 @@ Restaura los paquetes de NuGet:
 sh
 Copiar código
 dotnet restore
-Configura las cadenas de conexión y otras configuraciones necesarias en appsettings.json.
+Configura las cadenas de conexión y otras configuraciones necesarias.
 3. **Configurar la Base de Datos**
 
 Navega a la carpeta de la base de datos:
