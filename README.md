@@ -100,16 +100,8 @@ La aplicación permite a los usuarios registrar y hacer seguimiento de sus medid
 ### Generación de Código QR
 Los usuarios pueden generar un código QR único que les permite ingresar al gimnasio de forma rápida y segura.
 
-### Contribuciones
-¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
-
-1. **Haz un fork del repositorio.
-2. **Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-3. **Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').
-4. **Sube tus cambios a la rama (git push origin feature/nueva-caracteristica).
-5. **Abre un Pull Request.
 ### Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está licenciado bajo la Licencia BSD 3-Clause. Para más detalles, consulta el archivo LICENSE.
 
 ### Contacto
 Para más información o preguntas, puedes contactarnos a través de jimmycarrionp@gmail.com.
