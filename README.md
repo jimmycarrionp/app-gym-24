@@ -52,3 +52,70 @@ Esta aplicación móvil está diseñada para los clientes de un gimnasio, propor
    ```sh
    git clone https://github.com/tu-usuario/app-gym-24.git
    cd app-gym-24
+2. **Configurar el Backend**
+
+Navega a la carpeta del backend:
+sh
+Copiar código
+cd backend
+Restaura los paquetes de NuGet:
+sh
+Copiar código
+dotnet restore
+Configura las cadenas de conexión y otras configuraciones necesarias en appsettings.json.
+3. **Configurar la Base de Datos**
+
+Navega a la carpeta de la base de datos:
+sh
+Copiar código
+cd database
+Ejecuta los scripts de SQL para crear la base de datos y las tablas necesarias.
+4. **Configurar el Frontend**
+
+Navega a la carpeta del frontend:
+sh
+Copiar código
+cd frontend
+Instala las dependencias de Flutter:
+sh
+Copiar código
+flutter pub get
+5. **Desplegar en el Servidor**
+
+Configura Nginx para servir tu aplicación backend y frontend.
+Asegúrate de que todos los servicios estén corriendo correctamente.
+### Uso de la Aplicación
+### Registro de Usuario
+Los usuarios pueden registrarse proporcionando sus datos personales a través de un formulario en la aplicación.
+
+### Compra de Membresía
+Una vez registrados, los usuarios pueden comprar una membresía mensual que les da acceso a todas las funcionalidades de la aplicación.
+
+### Selección de Rutinas
+Los usuarios pueden navegar por una lista de rutinas de entrenamiento disponibles y seleccionar la que mejor se adapte a sus objetivos.
+
+### Registro de Medidas Corporales
+La aplicación permite a los usuarios registrar y hacer seguimiento de sus medidas corporales para monitorear su progreso físico.
+
+### Generación de Código QR
+Los usuarios pueden generar un código QR único que les permite ingresar al gimnasio de forma rápida y segura.
+
+### Contribuciones
+¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
+
+1. **Haz un fork del repositorio.
+2. **Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+3. **Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').
+4. **Sube tus cambios a la rama (git push origin feature/nueva-caracteristica).
+5. **Abre un Pull Request.
+### Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+
+### Contacto
+Para más información o preguntas, puedes contactarnos a través de jimmycarrionp@gmail.com.
+
+### Referencias
+Flutter Documentation
+Microsoft .NET Documentation
+SQL Server Documentation
+Nginx Documentation
