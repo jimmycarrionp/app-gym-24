@@ -50,5 +50,5 @@ Esta aplicación móvil está diseñada para los clientes de un gimnasio, propor
 
 1. **Clonar el Repositorio**
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/tu-usuario/app-gym-24.git
+   cd app-gym-24
